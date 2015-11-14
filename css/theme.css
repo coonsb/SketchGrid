@@ -1,7 +1,10 @@
 .tile {
 	display: inline-block;
-	width: 20px;
-	height: 20px;
 	margin: 1px;
 	border: 1px solid #000;
+}
+
+.container {
+	width: 500px;
+	height: 500px;
 }
