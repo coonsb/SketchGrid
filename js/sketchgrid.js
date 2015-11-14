@@ -35,7 +35,8 @@ $(document).ready(function() {
 		if (newWidth > 0 && newWidth <= 64) {
 			createGrid(newWidth, 1);
 		} else {
-			alert("Please enter a valid grid width!");
+			alert("Please enter a valid grid width! Creating a default size grid!");
+			createGrid(16, 1);
 		}
 	});
 
@@ -45,7 +46,8 @@ $(document).ready(function() {
 		if (newWidth > 0 && newWidth <= 64) {
 			createGrid(newWidth, 2);
 		} else {
-			alert("Please enter a valid grid width!");
+			alert("Please enter a valid grid width! Creating a default size grid!");
+			createGrid(16, 2);
 		}
 	})
 
@@ -55,7 +57,8 @@ $(document).ready(function() {
 		if (newWidth > 0 && newWidth <= 64) {
 			createGrid(newWidth, 3);
 		} else {
-			alert("Please enter a valid grid width!");
+			alert("Please enter a valid grid width! Creating a default size grid!");
+			createGrid(16, 3);
 		}
 	})
 });
